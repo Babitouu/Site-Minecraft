@@ -1,0 +1,106 @@
+body {
+    background-image: url('Dirt_background_JE2.png'); /* Définit une image de fond pour le corps de la page */
+    background-size: cover; /* L'image de fond couvre toute la surface */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image de fond */
+    background-attachment: fixed; /* L'image de fond reste fixe lors du défilement */
+    background-position: center; /* Centre l'image de fond */
+    color: #fff; /* Assure que le texte est visible sur un fond sombre */
+    z-index: 1; /* Le texte reste au-dessus des autres éléments avec un z-index inférieur */
+    font-family: 'CustomFont', sans-serif; /* Définit une police personnalisée pour le texte */
+}
+
+@font-face {
+    font-family: 'CustomFont'; /* Déclare une police personnalisée nommée 'CustomFont' */
+    src: url('fonte.woff') format('woff'); /* Spécifie le fichier source de la police */
+}
+
+nav {
+    display: flex; /* Utilise Flexbox pour organiser les éléments de la navigation */
+    flex-direction: row; /* Aligne les éléments de navigation en ligne */
+    justify-content: start; /* Aligne les éléments au début de la ligne */
+    align-items: center; /* Centre les éléments verticalement */
+    top: 0; /* Positionne la barre de navigation en haut */
+    width: 100%; /* La barre de navigation occupe toute la largeur */
+    z-index: 2; /* Assure que la barre de navigation reste au-dessus des autres éléments */
+    background-color: rgba(0, 0, 0, 0.5); /* Définit une couleur de fond sombre avec transparence */
+}
+
+nav a {
+    display: flex; /* Utilise Flexbox pour les liens de navigation */
+    flex-direction: row; /* Aligne le contenu des liens en ligne */
+    color: #fff; /* Définit la couleur du texte des liens en blanc */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    font-size: 18px; /* Définit la taille de la police des liens */
+    font-weight: bold; /* Rend le texte des liens en gras */
+    padding: 12px 10px; /* Ajoute un espacement interne aux liens */
+    transition: color 0.3s ease; /* Ajoute une transition fluide pour le changement de couleur */
+}
+nav a:hover {
+    color: #ffcc00; /* Change la couleur des liens au survol */
+}
+
+#nav-list {
+    display: flex; /* Utilise Flexbox pour organiser les éléments de la liste de navigation */
+    flex-direction: row; /* Aligne les éléments de la liste en ligne */
+    gap: 470px; /* Définit un espacement entre les éléments de la liste */
+    align-items: center; /* Centre les éléments verticalement */
+    padding: 10px 20px; /* Ajoute un espacement interne à la liste */
+    list-style: none; /* Supprime les puces de la liste */
+    margin: 10px 10px; /* Ajoute une marge autour de la liste */
+}
+div {
+    display: block; /* Définit le conteneur comme un bloc */
+    flex-wrap: wrap; /* Permet le retour à la ligne des éléments */
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: flex-start; /* Aligne les éléments en haut */
+    gap: 20px; /* Espacement entre les éléments */
+    padding: 20px; /* Ajoute un espace interne */
+    margin: 0 auto; /* Centre le conteneur */
+    max-width: 1600px; /* Limite la largeur maximale */
+    background-color: rgba(104, 75, 75, 0.5); /* Fond semi-transparent */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Ombre légère */
+    text-align: center;
+    list-style-position:inside;
+}
+h1{
+    font-size: 36px; /* Définit la taille de la police des titres */
+    margin-bottom: 20px; /* Ajoute une marge en bas des titres */
+    text-align: center; /* Centre le texte des titres */
+    color: #ffcc00; /* Change la couleur des titres */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajoute une ombre au texte des titres */
+    font-family: 'CustomFont', sans-serif; /* Utilise la police personnalisée pour les titres */
+    font-weight: bold; /* Rend le texte des titres en gras */
+    text-transform: uppercase; /* Met le texte en majuscules */
+    letter-spacing: 1px; /* Ajoute un espacement entre les lettres */
+    position : relative; /* Positionne le titre relativement */
+}
+h2, h3{
+    font-size: 28px; /* Définit la taille de la police des titres */
+    margin-bottom: 20px; /* Ajoute une marge en bas des titres */
+    text-align: center; /* Centre le texte des titres */
+    color: #ffcc00; /* Change la couleur des titres */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajoute une ombre au texte des titres */
+    font-family: 'CustomFont', sans-serif; /* Utilise la police personnalisée pour les titres */
+    font-weight: bold; /* Rend le texte des titres en gras */
+    letter-spacing: 1px; /* Ajoute un espacement entre les lettres */
+    margin-top : 50px;
+}
+img {
+    display: block; /* Définit l'image comme un bloc pour permettre le centrage */
+    margin-left: auto; /* Centre horizontalement l'image */
+    margin-right: auto; /* Centre horizontalement l'image */
+    margin-top: 20px; /* Ajoute une marge en haut des images */
+    margin-bottom: 20px; /* Ajoute une marge en bas des images */
+    max-width: 100%; /* Limite la largeur des images à 100% de leur conteneur */
+}
+h4{
+    font-size: 18px; /* Définit la taille de la police des titres */
+    margin-bottom: 20px; /* Ajoute une marge en bas des titres */
+    text-align: center; /* Centre le texte des titres */
+    color: #ffcc00; /* Change la couleur des titres */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajoute une ombre au texte des titres */
+    font-family: 'CustomFont', sans-serif; /* Utilise la police personnalisée pour les titres */
+    font-weight: bold; /* Rend le texte des titres en gras */
+    letter-spacing: 1px; /* Ajoute un espacement entre les lettres */
+}
