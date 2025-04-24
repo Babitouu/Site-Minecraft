@@ -57,9 +57,8 @@ div {
     padding: 20px; /* Ajoute un espacement interne au conteneur */
     margin: 0 auto; /* Centre le conteneur horizontalement */
     max-width: 1600px; /* Définit une largeur maximale pour le conteneur */
-    background-color: rgb(104, 75, 75, 0.5); /* Ajoute un fond semi-transparent */
+    background-color: rgba(41, 37, 37, 0.5); /* Ajoute un fond semi-transparent */
     border-radius: 10px; /* Arrondit les coins du conteneur */
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Ajoute une ombre au conteneur */
 }
 h1{
     font-size: 36px; /* Définit la taille de la police des titres */
@@ -71,6 +70,7 @@ h1{
     font-weight: bold; /* Rend le texte des titres en gras */
     text-transform: uppercase; /* Met le texte en majuscules */
     letter-spacing: 1px; /* Ajoute un espacement entre les lettres */
+    display:block;
 }
 h2, h3{
     font-size: 28px; /* Définit la taille de la police des titres */
@@ -89,4 +89,40 @@ img {
     margin-top: 20px; /* Ajoute une marge en haut des images */
     margin-bottom: 20px; /* Ajoute une marge en bas des images */
     max-width: 100%; /* Limite la largeur des images à 100% de leur conteneur */
+}
+input,select,button{
+    font-family: 'CustomFont', sans-serif; /* Utilise la police personnalisée pour les éléments de formulaire */
+    font-size: 16px; /* Définit la taille de la police des éléments de formulaire */
+    padding: 10px; /* Ajoute un espacement interne aux éléments de formulaire */
+    border-radius: 5px; /* Arrondit les coins des éléments de formulaire */
+    border: 1px solid #ccc; /* Définit une bordure légère autour des éléments de formulaire */
+    background-color: #fff; /* Définit une couleur de fond blanche pour les éléments de formulaire */
+    color: #333; /* Définit une couleur de texte sombre pour les éléments de formulaire */
+    display:block; /* Définit les éléments de formulaire comme des blocs */
+    margin: 10px auto; /* Centre les éléments de formulaire horizontalement */
+    width: 70%; /* Définit une largeur de 80% pour les éléments de formulaire */
+}
+a{
+    color: #ffcc00; /* Définit la couleur des liens */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    font-size: 18px; /* Définit la taille de la police des liens */
+    font-weight: bold; /* Rend le texte des liens en gras */
+}
+a,p{
+    text-align: center; /* Centre le texte des liens et des paragraphes */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajoute une ombre au texte */
+    font-family: 'CustomFont', sans-serif; /* Utilise la police personnalisée pour les liens et les paragraphes */
+}
+.divspecial{
+    display: flex; /* Utilise Flexbox pour organiser les éléments */
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: flex-start; /* Aligne les éléments en haut */
+    gap: 20px; /* Ajoute un espacement entre les éléments */
+    padding: 20px; /* Ajoute un espacement interne au conteneur */
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+    max-width: 1600px; /* Définit une largeur maximale pour le conteneur */
+    background-color: transparent; /* Supprime le fond */
+    box-shadow: none; /* Supprime l'ombre */
+    border-radius: 0; /* Supprime les coins arrondis */
 }

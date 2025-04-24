@@ -57,9 +57,8 @@ div {
     padding: 20px; /* Ajoute un espace interne */
     margin: 0 auto; /* Centre le conteneur */
     max-width: 1600px; /* Limite la largeur maximale */
-    background-color: rgba(104, 75, 75, 0.5); /* Fond semi-transparent */
-    border-radius: 10px; /* Coins arrondis */
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Ombre légère */
+    background-color: rgba(41, 37, 37, 0.5); /* Ajoute un fond semi-transparent */
+    border-radius: 10px; /* Arrondit les coins du conteneur */
     text-align: center;
     list-style-position:inside;
 }
