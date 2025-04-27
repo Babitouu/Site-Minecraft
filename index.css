@@ -132,3 +132,29 @@ strong{
     font-family: 'CustomFont', sans-serif; /* Utilise la police personnalisée pour le texte en gras */
     font-weight: bold; /* Rend le texte en gras */
 }
+table {
+    width: 70%; /* Le tableau occupe 70% de la largeur disponible */
+    border-collapse: collapse; /* Fusionne les bordures adjacentes */
+    font-family: 'CustomFont', sans-serif; /* Utilise la police personnalisée */
+    background-color: rgba(0, 0, 0, 0.5); /* Ajoute un fond semi-transparent */
+    color: #fff; /* Définit la couleur du texte */
+    text-align: center; /* Centre le texte dans les cellules */
+    border-radius: 10px; /* Arrondit les coins du tableau */
+    overflow: hidden; /* Assure que les coins arrondis s'appliquent */
+}
+
+table th, table td {
+    padding: 15px; /* Ajoute un espacement interne aux cellules */
+    border: 1px solid #ddd; /* Ajoute une bordure légère aux cellules */
+}
+
+table th {
+    background-color: #333; /* Définit une couleur de fond pour les en-têtes */
+    color: #ffcc00; /* Change la couleur du texte des en-têtes */
+    text-transform: uppercase; /* Met le texte des en-têtes en majuscules */
+    font-weight: bold; /* Rend le texte des en-têtes en gras */
+}
+
+table tr:hover {
+    background-color: rgba(255, 204, 0, 0.2); /* Change la couleur de fond au survol */
+}

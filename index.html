@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     
 </head>
 <body>
@@ -25,15 +25,35 @@
         <h1>Qu’est-ce que Minecraft ?</h1>
         <p>Minecraft est un jeu vidéo de type bac à sable (sandbox), développé par Mojang Studios et publié en 2011. Dans Minecraft, les joueurs évoluent dans un monde entièrement composé de blocs (terre, pierre, eau, etc.) qu'ils peuvent casser, placer et combiner pour créer à peu près tout ce qu'ils veulent.</p>
     
-        <h3>Le jeu propose plusieurs modes :</h3>
-        <ul>
-            <li><strong>Survie :</strong> Le joueur doit récolter des ressources, construire des abris et survivre contre des monstres.</li>
-            <li><strong>Créatif :</strong> Liberté totale : ressources illimitées et possibilité de voler pour construire sans limites.</li>
-            <li><strong>Aventure :</strong> Destiné aux cartes personnalisées avec des objectifs spécifiques.</li>
-            <li><strong>Spectateur :</strong> Permet d'explorer les mondes sans interagir.</li>
-        </ul>
+        <h3 name="sympathique">Le jeu propose plusieurs modes :</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Mode</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Survie</td>
+                        <td>Mode où le joueur doit récolter des ressources et survivre.</td>
+                    </tr>
+                    <tr>
+                        <td>Créatif</td>
+                        <td>Mode avec des ressources illimitées pour construire librement.</td>
+                    </tr>
+                    <tr>
+                        <td>Aventure</td>
+                        <td>Mode conçu pour des cartes personnalisées avec des objectifs.</td>
+                    </tr>
+                    <tr>
+                        <td>Spectateur</td>
+                        <td>Mode permettant d'explorer sans interagir avec le monde.</td>
+                    </tr>
+                </tbody>
+            </table>
     
-        <h3>Minecraft est aussi célèbre pour :</h3>
+        <h3 name="sympathique">Minecraft est aussi célèbre pour :</h3>
         <ul>
             <li>Son style graphique en pixels volontairement rétro.</li>
             <li>Son énorme communauté qui crée des mods, serveurs personnalisés et des maps incroyables.</li>
@@ -54,7 +74,8 @@
             <p id="result"></p>
         </div>
         <p id='test'>texte magique qui change de couleur au click</p>
-</div>
+
+    </div>
 <script src="script.js"></script>
 </body>
 </html>
