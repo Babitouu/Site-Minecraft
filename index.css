@@ -140,7 +140,7 @@ table {
     color: #fff; /* Définit la couleur du texte */
     text-align: center; /* Centre le texte dans les cellules */
     border-radius: 10px; /* Arrondit les coins du tableau */
-    overflow: hidden; /* Assure que les coins arrondis s'appliquent */
+    overflow: hidden; /* Assure que les coins arrondis s'appliquent */  /* Centre le tableau horizontalement */
 }
 
 table th, table td {
